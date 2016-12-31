@@ -1,0 +1,38 @@
+{
+	"name":"leo-unglaub/contao-quicky",
+	"description":"Allows the user to quicky run code in the framework.",
+	"keywords":["contao", "quicky", "dev", "helper"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Leo Unglaub",
+			"email":"leo@leo-unglaub.net",
+			"homepage":"https://www.leo-unglaub.net",
+			"role":"Developer"
+		}
+	],
+	"support": {
+		"email": "leo@leo-unglaub.net",
+		"issues": "https://bitbucket.org/leo-unglaub/contao-quicky/issues",
+		"wiki": "https://www.leo-unglaub.net/software/contao-extensions",
+		"irc": "irc://irc.freenode.org/contao.dev",
+		"source": "https://bitbucket.org/leo-unglaub/contao-quicky/src/"
+	},
+	"require":{
+		"php":">=5.5",
+		"contao/core":"~3",
+		"contao-community-alliance/composer-installer": "*"
+	},
+	"replace": {
+		"contao-legacy/quicky": "*"
+	},
+	"extra":{
+		"contao": {
+			"sources":{
+				"run.php": "run.php"
+			}
+		}
+	}
+}
+
